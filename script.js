@@ -6,6 +6,7 @@ let isGameOver = false;
 let position = 0;
 
 function handleKeyUp(event) {
+    //code 32 igual a space na tecla
   if (event.keyCode === 32) {
     if (!isJumping) {
       jump();
